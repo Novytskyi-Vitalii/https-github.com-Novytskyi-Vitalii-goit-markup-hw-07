@@ -1,0 +1,31 @@
+.work {
+  padding-bottom: 94px;
+}
+.work__title {
+  display: flex;  
+  margin: 0 auto 50px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.work__list {
+  display: flex;
+  padding-left: 0;
+  /* justify-content: space-between; */
+  list-style: none;
+  /* width: calc((100% - 30px) / 3); */
+}
+.work-card {
+  position: relative;
+  margin-right: 30px;
+  width: calc((100% - 30px) / 3);
+}
+.work-card:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.content-about {
+  width: 370px;
+  height: 294px;
+}

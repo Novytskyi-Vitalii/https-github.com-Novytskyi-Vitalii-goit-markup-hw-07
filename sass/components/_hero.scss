@@ -1,0 +1,51 @@
+.hero >.overlay {
+  background-color: #2f303a;
+  text-align: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/* OVERLAY */
+.overlay {
+  max-width: 1600 px;
+  min-height: 600px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+    to right, rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+  url(../images/Img-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title {
+  width: 696px;
+  margin: 0 auto 40px;
+  /* padding-bottom: 30px; */
+ 
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-link {
+  display: block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-decoration: none;
+  width: 200px;
+  margin: 0 auto;
+} 
+.button-hero {
+  font-family: inherit;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
