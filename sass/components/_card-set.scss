@@ -10,14 +10,14 @@
 
   margin-left: -30px;
   margin-top: -30px;
-}
-.card-set > .item {
-/* outline: 1px solid green; */
-flex-basis: calc(100% / 3 - 30px);
 
+  & > .item {
+flex-basis: calc(100% / 3 - 30px);
 margin-left: 30px;
 margin-top: 30px;
 }
+}
+
 .item {
   border: 1px solid #EEEEEE;
   position: relative;
@@ -49,8 +49,6 @@ opacity: 1;
   overflow: hidden;
 }
 }
-
-
 
 .backdrop {
   position: fixed;
@@ -159,14 +157,15 @@ opacity: 1;
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative;
-    
-  }
-  .link.current {
+   
+    &.current {
     padding-top: 32px;
     padding-bottom: 33px;
     position: relative;
     
   }
+  }
+  
   .link.current::after {
     content: "";
     display: block;
