@@ -41,15 +41,16 @@ padding-left: 24px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-}
-
-.portfolio-text:hover .portfolio-info {
+&-text:hover &-info {
 opacity: 1;
 }
-.portfolio-thumb {
+&-thumb {
   position: relative;
   overflow: hidden;
 }
+}
+
+
 
 .backdrop {
   position: fixed;
@@ -61,11 +62,13 @@ opacity: 1;
 
   opacity: 1;
   transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.backdrop.is-hidden {
+  
+  &.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+}
+
 .modal {
   position: absolute;
   top: 50%;
@@ -76,8 +79,8 @@ opacity: 1;
   height: 581px;
   background-color: rgba(255,255,255,1);
   padding: 40px;  
-}
-.modal-title {
+
+  &-title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 20px;
@@ -87,6 +90,8 @@ opacity: 1;
    color: #212121;
    margin-bottom: 30px;
 }
+}
+
   .button-close {
     position: absolute;
    
@@ -96,11 +101,13 @@ opacity: 1;
     margin-right: 8px;
     left: 93%;
     top: 0;
-  }
-  .button-close:hover,
-  .button-close:focus {
+
+    &:hover,
+    &:focus {
     fill: var(--blue-color);
   }
+  }
+  
   .portfolio-info {
     display: flex;
     position: absolute;
