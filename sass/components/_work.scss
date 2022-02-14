@@ -11,10 +11,9 @@
   margin-right: 30px;
   width: calc((100% - 30px) / 3);
 }
-
-}
-.work-card:nth-child(3n + 3) {
+&-card:nth-child(3n + 3) {
   margin-right: 0;
+}
 }
 .content-about {
   width: 370px;
